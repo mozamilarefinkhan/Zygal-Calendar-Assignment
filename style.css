@@ -43,6 +43,7 @@ th {
 button{
     background-color: rgb(60, 23, 247);
     color: #fff;
+    border: 1px solid black;
 }
 input::placeholder{
     font-weight: bold;
