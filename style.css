@@ -1,0 +1,70 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+      font-size: 30px;
+}
+td{
+    background-color: white;
+}
+
+th {
+    font-weight: bold;
+}
+#month,#year,input,button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+ button{
+    border: none;
+ }
+#container{
+    width: flex;
+    justify-content: center;
+}
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    background-color: rgb(60, 23, 247);
+    color: #fff;
+}
+input::placeholder{
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+   
+    td,th{
+    padding: 4px 2px;
+    text-align: center;
+    font-size: 17px;
+    }
+    #month, #year, input, button {
+        width: 140px;
+        height: 35px;
+        font-size: 15px;
+        margin: 20px;
+    }
+    #opt{
+        display: flex;
+        width: 100%;
+    }
+}
